@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: Ignite
+subtitle: 那是一道光 -=-
+description: 没有什么事情是一份炸鸡解决不了的，如果有，那就两份
+author: Kris wu
+language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: ／
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -42,7 +42,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -51,7 +51,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -72,9 +72,23 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+#theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/nookio/blog.git
+  branch: gh-pages
+
+duoshuo_shortname: ignite
+duoshuo_hotartical: true
+
+swiftype_key: xrFVP2Yz2yJp_NHuqxXf
+
+search:
+  path: search.xml
+  field: post
+
+avatar: /uploads/avatar.JPG
