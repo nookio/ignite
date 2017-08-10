@@ -85,10 +85,12 @@ deploy:
 # duoshuo_shortname: ignite
 # duoshuo_hotartical: true
 
-swiftype_key: xrFVP2Yz2yJp_NHuqxXf
+# swiftype_key: xrFVP2Yz2yJp_NHuqxXf
 
 search:
   path: search.xml
   field: post
+  format: html
+  limit: 10000
 
 avatar: /uploads/avatar.JPG
