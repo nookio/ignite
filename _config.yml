@@ -82,8 +82,8 @@ deploy:
   repository: git@github.com:nookio/nookio.github.io.git
   branch: master
 
-duoshuo_shortname: ignite
-duoshuo_hotartical: true
+# duoshuo_shortname: ignite
+# duoshuo_hotartical: true
 
 swiftype_key: xrFVP2Yz2yJp_NHuqxXf
 
