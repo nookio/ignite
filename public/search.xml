@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[ClassLoader分析]]></title>
+    <url>%2F2017%2F08%2F13%2FClassLoader%E5%88%86%E6%9E%90%2F</url>
+    <content type="text"><![CDATA[ClassLoader的分类整体上一共有三种，也是classloader的加载顺序 bootstrap classLoader –这个是JVM级别的 extension classLoader –这个是扩展加载器 system classLoader –应用类加载器 下面依次介绍这三个ClassLoader. Bootstrap classLoader首先来说，这个加载器的被调用时机]]></content>
+      <tags>
+        <tag>Java</tag>
+        <tag>原理</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[人生第一次写博客]]></title>
     <url>%2F2017%2F08%2F10%2Ffirst-page%2F</url>
-    <content type="text"><![CDATA[1System.out.println("hello world"); READ MoreDo not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy. David LevithanWide Awake 开始一步一步向工程师进攻～ 哈哈]]></content>
+    <content type="text"><![CDATA[1System.out.println("hello world"); READ More Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy. David LevithanWide Awake 开始一步一步向工程师进攻～ &lt;!--more--&gt; 哈哈]]></content>
       <tags>
         <tag>测试</tag>
         <tag>哈哈</tag>
