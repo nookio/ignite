@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Thrift源码分析--概述]]></title>
+    <url>%2F2017%2F08%2F14%2FThrift%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E6%A6%82%E8%BF%B0%2F</url>
+    <content type="text"><![CDATA[简介我司采用的RPC框架是apache开源的thrift，并在上层封装了服务注册和自动分配的功能，我将在两个部分分别介绍我司的RPC框架，首先是从底层进行分析整个的工作原理，下一步完成给thrift添加上下文，最终介绍我司的封装 Thrift源于Facebook, 目前已经作为开源项目提交给了Apahce。Thrift解决了Facebook各系统的大数据量传输通信和内部不同语言环境的跨平台调用。 官网Thrift的官方网站: http://thrift.apache.org/ 特点作为一个高性能的RPC框架，Thrift的主要特点有 基于二进制的高性能的编解码框架 基于NIO的底层通信 相对简单的服务调用模型 使用IDL支持跨平台调用 核心组件Thrift其中包含了如下的几个核心组件： TProtocol: 协议和编解码组件 TTransport: 传输组件 TProcessor: 服务调用组件 TServer，Client: 服务器和客户端组件 IDL: 服务描述组件，负责生产跨平台客户端 我会在后面的文章中依次介绍每一个组件]]></content>
+      <tags>
+        <tag>原理</tag>
+        <tag>RPC</tag>
+        <tag>源码</tag>
+        <tag>Thrift</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[ClassLoader分析]]></title>
     <url>%2F2017%2F08%2F13%2FClassLoader%E5%88%86%E6%9E%90%2F</url>
     <content type="text"><![CDATA[ClassLoader的分类整体上一共有三种，也是classloader的加载顺序 bootstrap classLoader –这个是JVM级别的 extension classLoader –这个是扩展加载器 system classLoader –应用类加载器 下面依次介绍这三个ClassLoader. Bootstrap classLoader首先来说，这个加载器的被调用时机]]></content>
@@ -12,7 +23,7 @@
   <entry>
     <title><![CDATA[人生第一次写博客]]></title>
     <url>%2F2017%2F08%2F10%2Ffirst-page%2F</url>
-    <content type="text"><![CDATA[1System.out.println("hello world"); READ More Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy. David LevithanWide Awake 开始一步一步向工程师进攻～ &lt;!--more--&gt; 哈哈]]></content>
+    <content type="text"><![CDATA[1System.out.println("hello world"); READ MoreDo not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy. David LevithanWide Awake 开始一步一步向工程师进攻～ 哈哈]]></content>
       <tags>
         <tag>测试</tag>
         <tag>哈哈</tag>

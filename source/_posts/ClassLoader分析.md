@@ -4,7 +4,6 @@ date: 2017-08-13 22:43:32
 tags:
   - Java
   - 原理
-  - 原理
 ---
 ## ClassLoader的分类
 整体上一共有三种，也是classloader的加载顺序
