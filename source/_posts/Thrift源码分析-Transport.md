@@ -18,17 +18,17 @@ TTransport的设计理念是和我们生成的代码、协议层完全解耦。
  - 我们生成的代码（Client）只需要处理读到的数据以及处理，并不需要关心如何去读取这个数据。
  - 协议层也只需要进行数据的编解码。但是无需关心这些数据是如何来的，是使用的http还是socket还是file等。
 
-### TTransport结构：
+### TTransport结构  
 ![TTransport](/images/TTransport.jpg "TTransport结构")  
 这个并不是一个完整的传输层，还有一部分是在服务端使用的，用来帮助生成的代码来创建一个默认的TTransport，供给服务端使用。如果不好理解，可以类比Socket和ServerSocket。  
 
-### TServerTransport结构：
+### TServerTransport结构  
 ![TServerTransport](/images/TServerTransport.jpg "TServerTransport结构")  
 
 
 ## 分析  
 
-### TTransport：
+### TTransport  
 下面是源码分析，已经对注解翻译，并且去掉了具体实现  
 
 ```java  
